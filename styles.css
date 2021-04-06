@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#breed {
+    outline: none;
+    border-radius: 2em;
+}
+
+.header {
+    text-align: center;
+    background-color: cadetblue;
+    padding-bottom: 23px;
+
+}
+
+.header h1 {
+    margin: 0 0 10px 0;
+}
+
+.header select {
+    font-size: 1rem;
+}
+
+.slideshow {
+    flex: 1;
+    background-color: rgb(185, 124, 11);
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+    margin-left: 25%;
+}
+
+.dog {
+    /* width: 100vh; */
+    height: 100vh;
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
